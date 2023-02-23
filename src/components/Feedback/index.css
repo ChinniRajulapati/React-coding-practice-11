@@ -1,0 +1,77 @@
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 40px;
+  }
+}
+.inner-container {
+  height: auto;
+  width: 60vw;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 30px;
+  margin: 30px;
+}
+
+.list-container {
+  margin: 10px;
+  list-style-type: none;
+  padding: 10px;
+}
+.heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #0f172a;
+  text-align: center;
+}
+.emoji-list-container {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-image {
+  height: 40px;
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-image {
+    width: 80px;
+    height: 80px;
+  }
+}
+.name {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed-back-description {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.love-emoji {
+  height: 70px;
+  width: 90px;
+  padding: 10px;
+}
+.emoji-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
